@@ -1,0 +1,27 @@
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: black;    
+  }
+  
+  h1, h2 {
+    color: #d82c82; 
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  .bg{
+    background-color: rgba(240, 248, 255, 0.148);
+  }

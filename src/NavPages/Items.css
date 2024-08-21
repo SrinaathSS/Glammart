@@ -1,0 +1,53 @@
+.items{
+    width: 300px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+}
+.items p{
+    margin: 6px 0px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.newprice{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.oldprice{
+    color: rgb(107, 6, 6);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.items:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+    cursor: pointer;
+}
+.jimg{
+    height: 300px;
+    width: 270px;
+}
+.opt{
+    display: flex;
+}
+.opt button{
+    height: 50px;
+    border: 2px solid rgb(210, 112, 128);
+    width: 50px;
+    background: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.opt button:hover{
+    background-color: pink;
+}
+
+.opt button:active{
+    background: rgb(210, 112, 128);
+    color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

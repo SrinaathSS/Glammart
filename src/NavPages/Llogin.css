@@ -1,0 +1,18 @@
+.log{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.log1 img{
+    height: 710px;
+}
+.log2 .logo{
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.log2 .icon{
+    height: 80px;
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 210px;
+}
